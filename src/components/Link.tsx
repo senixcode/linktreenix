@@ -8,7 +8,7 @@ export const Link = (props: Props) => (
   <a
     href={props.href}
     target="_blank"
-    rel="noopener"
+    rel="noopener noreferrer"
     className={props.className}
   >{props.children}</a>
 )
