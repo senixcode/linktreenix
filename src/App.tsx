@@ -17,6 +17,11 @@ function App () {
             className="btn-link"
             children="Mi web"
           />
+          <Link
+            href="https://codesandbox.io/u/senixcode"
+            className="btn-link"
+            children="codesandbox"
+          />
         <div className="flex gap-4">
           <Link
             href="https://github.com/senixcode"
