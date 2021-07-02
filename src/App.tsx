@@ -9,7 +9,7 @@ function App () {
       <header className="row-span-1 flex flex-col gap-3 items-center">
         <img src={MyLogo} alt="perfil" className="w-24 h-24 rounded-full" />
         <h2 className="font-medium text-lg text-center">Luis Romero, Lima Perú, @senixcode</h2>
-        <p>Developer Full Stack, Especializándome como Frontend Developer.</p>
+        <p className="text-center">Developer Full Stack, Especializándome como Frontend Developer.</p>
       </header>
       <section className="row-span-5 flex flex-col gap-3 items-center">
           <Link
