@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-link {
+  @apply flex justify-center border rounded-lg items-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white w-full h-12;
+}
+
+.icon {
+  @apply text-purple-500 text-4xl;
+}
